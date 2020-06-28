@@ -2,7 +2,7 @@ body {
     background: rgba(0, 0, 0, .9);
     margin:0;
     color:#fff;
-    <!-- font-family:'Open Sans',sans-serif; -->
+    font-family:'Open Sans',sans-serif; 
 }
 .header::after{
     content: '';
@@ -44,7 +44,7 @@ transition: all 1000ms;
     width: 100px;
 }
 .title{
-    <!-- font-family: 'Oswald', sans-serif;-->
+    font-family: 'Oswald', sans-serif;
     font-size: 2rem;
 }
 

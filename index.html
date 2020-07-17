@@ -57,6 +57,12 @@ position:fixed;
 text-align:center;
 color:#000;
 }
+
+label{
+    width: 150px;
+    display: inline-block;
+}
+
 </style>
     <!--<link  rel="shortcut icon"   href="img/favicon.png" type="image/png" />-->
     <link rel="shortcut icon" href="img/favicon4.png">
@@ -87,6 +93,20 @@ color:#000;
         <p>Se resuelve ejercicios de cálculo diferencial e integral. Para esto, usted me envía el (los) ejercicio (ejercicios) al siguiente correo electrónico: fisicamatematicajm@hotmail.com, y de acuerdo a la complejidad se le mencionará el costo. Si usted está de acuerdo, entonces cancelará el costo y se le enviará los ejercicios resueltos.
         </p>
     </div> 
+
+   <form method="post" action="pagina2.php">
+   <label for="nombre"> Nombre:</label>
+   <input type="text" name="nombre" id="nombre"><br>
+
+   <label for="asunto"> Asunto:</label>
+   <input type="text" name="asunto" id="asunto"><br>
+
+   <label for="mensaje"> Mensaje:</label>
+   <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+
+   <input type="submit">
+
+    </form>
     <!--FOOTER-->
     <footer>
         <p>ARAOweb &copy; 2020 - All rights reserved</p>

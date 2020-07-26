@@ -1,5 +1,5 @@
 <?php
-$destino="fisicamatematicajm@hotmail.com";
+$destino="fisicamatematica@hotmail.com";
 $nombre=$_Post['nombre'];
 $correo=$_Post['correo'];
 $telefono=$_Post['telefono'];

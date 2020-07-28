@@ -1,8 +1,7 @@
 h1 {text-align: center;}
 body {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 color:white;
-background-image: url('../img/fondo.jpg');;
-/*background-color:#666699;*/
+background-image: url('../img/fondo.jpg');
 }
 
 .logo {
@@ -10,14 +9,6 @@ height:100px;
 width: 150px;
 }
 
-.text-center {
-    text-align: center;
-    margin: auto;
-}
-.bg-light {
-background: #fff;
-color: #333;
-}
 footer {
 background-color: #fff;
 width: 100%;
@@ -28,11 +19,6 @@ right: 0;
 position:fixed;
 text-align:center;
 color:#000;
-}
-
-label{
-    width: 150px;
-    display: inline-block;
 }
 
 form{
@@ -62,9 +48,11 @@ input, textarea{
   color: #fff;
   padding:20px;  
 }
+
 #boton:hover{
     cursor: pointer;
 }
+
 @media(max-width:480px){
     form{
         width:100%;

@@ -1,7 +1,8 @@
 h1 {text-align: center;}
 body {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 color:white;
-background-image: url('../img/fondo.jpg');
+background-image: url('../img/fondo.jpg');;
+/*background-color:#666699;*/
 }
 
 .logo {
@@ -9,6 +10,13 @@ height:100px;
 width: 150px;
 }
 
+.text-center {
+    text-align: center;
+    margin: auto;
+}
+.bg-light {
+background: #fff;
+color: #333;
 }
 footer {
 background-color: #fff;
@@ -20,6 +28,11 @@ right: 0;
 position:fixed;
 text-align:center;
 color:#000;
+}
+
+label{
+    width: 150px;
+    display: inline-block;
 }
 
 form{

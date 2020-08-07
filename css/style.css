@@ -2,7 +2,7 @@ h1 {text-align: center;}
 body {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 color:white;
 background-image: url('../img/fondo.jpg');
-background: cornflowerblue;
+background-color: steelblue;
 background-size: 100vw 100vh;
 background-attachment: fixed;
 margin: 0;
